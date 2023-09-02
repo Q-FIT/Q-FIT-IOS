@@ -99,7 +99,7 @@
 		7866D7B02AA3660F00D33925 /* Q-FIT */ = {
 			isa = PBXGroup;
 			children = (
-				7866D7E12AA3676500D33925 /* vote */,
+				7866D7E22AA367A200D33925 /* vote */,
 				7866D7B12AA3660F00D33925 /* AppDelegate.swift */,
 				7866D7B32AA3660F00D33925 /* SceneDelegate.swift */,
 				7866D7B52AA3660F00D33925 /* ViewController.swift */,
@@ -128,7 +128,7 @@
 			path = "Q-FITUITests";
 			sourceTree = "<group>";
 		};
-		7866D7E12AA3676500D33925 /* vote */ = {
+		7866D7E22AA367A200D33925 /* vote */ = {
 			isa = PBXGroup;
 			children = (
 			);
