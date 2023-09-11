@@ -16,6 +16,7 @@
 		7866D7C92AA3661000D33925 /* Q_FITTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7866D7C82AA3661000D33925 /* Q_FITTests.swift */; };
 		7866D7D32AA3661000D33925 /* Q_FITUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7866D7D22AA3661000D33925 /* Q_FITUITests.swift */; };
 		7866D7D52AA3661000D33925 /* Q_FITUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7866D7D42AA3661000D33925 /* Q_FITUITestsLaunchTests.swift */; };
+		78E513682AAEB987008CB40D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78E513672AAEB987008CB40D /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7866D7CE2AA3661000D33925 /* Q-FITUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Q-FITUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7866D7D22AA3661000D33925 /* Q_FITUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q_FITUITests.swift; sourceTree = "<group>"; };
 		7866D7D42AA3661000D33925 /* Q_FITUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q_FITUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		78E513672AAEB987008CB40D /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		7866D7B02AA3660F00D33925 /* Q-FIT */ = {
 			isa = PBXGroup;
 			children = (
+				78E513662AAEB961008CB40D /* main */,
 				7866D7E22AA367A200D33925 /* vote */,
 				7866D7B12AA3660F00D33925 /* AppDelegate.swift */,
 				7866D7B32AA3660F00D33925 /* SceneDelegate.swift */,
@@ -133,6 +136,14 @@
 			children = (
 			);
 			path = vote;
+			sourceTree = "<group>";
+		};
+		78E513662AAEB961008CB40D /* main */ = {
+			isa = PBXGroup;
+			children = (
+				78E513672AAEB987008CB40D /* MainStoryboard.storyboard */,
+			);
+			path = main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +252,7 @@
 			files = (
 				7866D7BE2AA3661000D33925 /* LaunchScreen.storyboard in Resources */,
 				7866D7BB2AA3661000D33925 /* Assets.xcassets in Resources */,
+				78E513682AAEB987008CB40D /* MainStoryboard.storyboard in Resources */,
 				7866D7B92AA3660F00D33925 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
