@@ -17,7 +17,6 @@
 		7866D7D32AA3661000D33925 /* Q_FITUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7866D7D22AA3661000D33925 /* Q_FITUITests.swift */; };
 		7866D7D52AA3661000D33925 /* Q_FITUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7866D7D42AA3661000D33925 /* Q_FITUITestsLaunchTests.swift */; };
 		78E513682AAEB987008CB40D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78E513672AAEB987008CB40D /* MainStoryboard.storyboard */; };
-		78E5136B2AAF293E008CB40D /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E5136A2AAF293E008CB40D /* SwiftUIView.swift */; };
 		78E5136D2AAF29FA008CB40D /* CounselingCenterStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78E5136C2AAF29FA008CB40D /* CounselingCenterStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +52,6 @@
 		7866D7D22AA3661000D33925 /* Q_FITUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q_FITUITests.swift; sourceTree = "<group>"; };
 		7866D7D42AA3661000D33925 /* Q_FITUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q_FITUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		78E513672AAEB987008CB40D /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
-		78E5136A2AAF293E008CB40D /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		78E5136C2AAF29FA008CB40D /* CounselingCenterStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CounselingCenterStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,7 +152,6 @@
 		78E513692AAF291F008CB40D /* counseling center */ = {
 			isa = PBXGroup;
 			children = (
-				78E5136A2AAF293E008CB40D /* SwiftUIView.swift */,
 				78E5136C2AAF29FA008CB40D /* CounselingCenterStoryboard.storyboard */,
 			);
 			path = "counseling center";
@@ -295,7 +292,6 @@
 			files = (
 				7866D7B62AA3660F00D33925 /* ViewController.swift in Sources */,
 				7866D7B22AA3660F00D33925 /* AppDelegate.swift in Sources */,
-				78E5136B2AAF293E008CB40D /* SwiftUIView.swift in Sources */,
 				7866D7B42AA3660F00D33925 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
