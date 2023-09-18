@@ -19,7 +19,6 @@
 		78D56C442AB75318005E4B07 /* CategoryButtonStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D56C432AB75318005E4B07 /* CategoryButtonStackView.swift */; };
 		78D56C462AB753CA005E4B07 /* CounMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D56C452AB753CA005E4B07 /* CounMainViewController.swift */; };
 		78D56C4A2AB77395005E4B07 /* CounMainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D56C492AB77395005E4B07 /* CounMainCollectionViewCell.swift */; };
-		78D56C4C2AB7880F005E4B07 /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D56C4B2AB7880F005E4B07 /* DateCollectionViewCell.swift */; };
 		78D56C4E2AB788D5005E4B07 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D56C4D2AB788D5005E4B07 /* MainViewController.swift */; };
 		78E513682AAEB987008CB40D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78E513672AAEB987008CB40D /* MainStoryboard.storyboard */; };
 		78E5136D2AAF29FA008CB40D /* CounselingCenterStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78E5136C2AAF29FA008CB40D /* CounselingCenterStoryboard.storyboard */; };
@@ -59,7 +58,6 @@
 		78D56C432AB75318005E4B07 /* CategoryButtonStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryButtonStackView.swift; sourceTree = "<group>"; };
 		78D56C452AB753CA005E4B07 /* CounMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounMainViewController.swift; sourceTree = "<group>"; };
 		78D56C492AB77395005E4B07 /* CounMainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounMainCollectionViewCell.swift; sourceTree = "<group>"; };
-		78D56C4B2AB7880F005E4B07 /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCollectionViewCell.swift; sourceTree = "<group>"; };
 		78D56C4D2AB788D5005E4B07 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		78E513672AAEB987008CB40D /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		78E5136C2AAF29FA008CB40D /* CounselingCenterStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CounselingCenterStoryboard.storyboard; sourceTree = "<group>"; };
@@ -155,7 +153,6 @@
 			isa = PBXGroup;
 			children = (
 				78E513672AAEB987008CB40D /* MainStoryboard.storyboard */,
-				78D56C4B2AB7880F005E4B07 /* DateCollectionViewCell.swift */,
 				78D56C4D2AB788D5005E4B07 /* MainViewController.swift */,
 			);
 			path = main;
@@ -311,7 +308,6 @@
 				7866D7B22AA3660F00D33925 /* AppDelegate.swift in Sources */,
 				7866D7B42AA3660F00D33925 /* SceneDelegate.swift in Sources */,
 				78D56C442AB75318005E4B07 /* CategoryButtonStackView.swift in Sources */,
-				78D56C4C2AB7880F005E4B07 /* DateCollectionViewCell.swift in Sources */,
 				78D56C4E2AB788D5005E4B07 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

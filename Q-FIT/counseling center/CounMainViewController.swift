@@ -20,6 +20,8 @@ class CounMainViewController: UIViewController,UICollectionViewDelegate, UIColle
         let buttonTitles = ["버튼 1", "버튼 2ㅂㅈㄷㅂㅈㄷㅂㅈㄷㅈㅂㄷ", "버튼 3", "버튼 4", "버튼 5", "버튼 6"]
         
         categoryStackView.addButtons(withTitles: buttonTitles)
+        
+        
 
         collectionView.delegate = self
         collectionView.dataSource = self

@@ -14,4 +14,5 @@ class CounMainCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var commentButton: UIButton!
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var writerLabel: UILabel!
+    
 }
